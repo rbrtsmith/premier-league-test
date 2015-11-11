@@ -1,5 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Greeting from './greeting';
+import data from './premier-league-data';
+import Table from './table';
 
-ReactDOM.render( <Greeting name="World" />, document.querySelector('#app'));
+
+const App = React.createClass({
+    render() {
+        return (
+            <div>
+                <Table competition='Premier League' data={data}/>
+            </div>
+        );
+    }
+});
+
+
+ReactDOM.render( <App />, document.querySelector('#app'));
