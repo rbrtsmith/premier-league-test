@@ -9,7 +9,6 @@ export default {
             lost: 2,
             goalsFor: 22,
             goalsAgainst: 9,
-            goalDifference: 13,
             points: 26,
             last5: ['w', 'w', 'w', 'w', 'd']
         },
@@ -21,9 +20,206 @@ export default {
             lost: 9,
             goalsFor: 10,
             goalsAgainst: 20,
-            goalDifference: -10,
             points: 5,
             last5: ['l', 'l', 'l', 'l', 'd']
-        }
+        },
+        {
+            name: 'Bournemouth',
+            played: 12,
+            won: 2,
+            drawn: 2,
+            lost: 8,
+            goalsFor: 12,
+            goalsAgainst: 25,
+            points: 8,
+            last5: ['d', 'l', 'l', 'l', 'l']
+        },
+        {
+            name: 'Chelsea',
+            played: 12,
+            won: 3,
+            drawn: 2,
+            lost: 7,
+            goalsFor: 16,
+            goalsAgainst: 23,
+            points: 11,
+            last5: ['l', 'w', 'l', 'l', 'l']
+        },
+        {
+            name: 'Crystal Palace',
+            played: 12,
+            won: 6,
+            drawn: 1,
+            lost: 5,
+            goalsFor: 14,
+            goalsAgainst: 12,
+            points: 19,
+            last5: ['w', 'l', 'l', 'd', 'w']
+        },
+        {
+            name: 'Everton',
+            played: 12,
+            won: 4,
+            drawn: 5,
+            lost: 3,
+            goalsFor: 20,
+            goalsAgainst: 16,
+            points: 17,
+            last5: ['d', 'l', 'l', 'w', 'd']
+        },
+        {
+            name: 'Leicester City',
+            played: 12,
+            won: 7,
+            drawn: 4,
+            lost: 1,
+            goalsFor: 25,
+            goalsAgainst: 20,
+            points: 25,
+            last5: ['w', 'd', 'w', 'w', 'w']
+        },
+        {
+            name: 'Liverpool',
+            played: 12,
+            won: 4,
+            drawn: 5,
+            lost: 3,
+            goalsFor: 13,
+            goalsAgainst: 14,
+            points: 17,
+            last5: ['d', 'd', 'd', 'w', 'l']
+        },
+        {
+            name: 'Manchester City',
+            played: 12,
+            won: 8,
+            drawn: 2,
+            lost: 2,
+            goalsFor: 26,
+            goalsAgainst: 9,
+            points: 26,
+            last5: ['w', 'w', 'd', 'w', 'd']
+        },
+        {
+            name: 'Manchester United',
+            played: 12,
+            won: 7,
+            drawn: 3,
+            lost: 2,
+            goalsFor: 17,
+            goalsAgainst: 8,
+            points: 24,
+            last5: ['l', 'w', 'd', 'd', 'w']
+        },
+        {
+            name: 'Newcastle United',
+            played: 12,
+            won: 2,
+            drawn: 4,
+            lost: 6,
+            goalsFor: 13,
+            goalsAgainst: 22,
+            points: 10,
+            last5: ['l', 'w', 'l', 'd', 'w']
+        },
+        {
+            name: 'Norwich City',
+            played: 12,
+            won: 3,
+            drawn: 3,
+            lost: 6,
+            goalsFor: 16,
+            goalsAgainst: 23,
+            points: 12,
+            last5: ['l', 'l', 'l', 'l', 'w']
+        },
+        {
+            name: 'Southampton',
+            played: 12,
+            won: 5,
+            drawn: 5,
+            lost: 2,
+            goalsFor: 19,
+            goalsAgainst: 13,
+            points: 20,
+            last5: ['w', 'd', 'd', 'w', 'w']
+        },
+        {
+            name: 'Stoke City',
+            played: 12,
+            won: 4,
+            drawn: 4,
+            lost: 4,
+            goalsFor: 10,
+            goalsAgainst: 12,
+            points: 16,
+            last5: ['w', 'w', 'l', 'd', 'w']
+        },
+        {
+            name: 'Sunderland',
+            played: 12,
+            won: 1,
+            drawn: 3,
+            lost: 8,
+            goalsFor: 13,
+            goalsAgainst: 26,
+            points: 6,
+            last5: ['d', 'l', 'w', 'l', 'l']
+        },
+        {
+            name: 'Swansea City',
+            played: 12,
+            won: 3,
+            drawn: 4,
+            lost: 5,
+            goalsFor: 12,
+            goalsAgainst: 16,
+            points: 13,
+            last5: ['d', 'l', 'w', 'l', 'l']
+        },
+        {
+            name: 'Tottenham Hotspur',
+            played: 12,
+            won: 5,
+            drawn: 6,
+            lost: 1,
+            goalsFor: 20,
+            goalsAgainst: 10,
+            points: 21,
+            last5: ['d', 'd', 'w', 'w', 'd']
+        },
+        {
+            name: 'Watford',
+            played: 12,
+            won: 4,
+            drawn: 4,
+            lost: 4,
+            goalsFor: 11,
+            goalsAgainst: 12,
+            points: 16,
+            last5: ['l', 'w', 'w', 'l', 'l']
+        },
+        {
+            name: 'West Bromwich Albion',
+            played: 12,
+            won: 4,
+            drawn: 2,
+            lost: 6,
+            goalsFor: 10,
+            goalsAgainst: 16,
+            points: 14,
+            last5: ['l', 'w', 'w', 'l', 'l']
+        },
+        {
+            name: 'West Ham United',
+            played: 12,
+            won: 6,
+            drawn: 3,
+            lost: 3,
+            goalsFor: 23,
+            goalsAgainst: 16,
+            points: 21,
+            last5: ['d', 'w', 'w', 'l', 'd']
+        },
     ]
 };

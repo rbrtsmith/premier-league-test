@@ -6,7 +6,7 @@ import Team from './team';
 export default React.createClass({
     render() {
         const teams = this.props.teams
-            .sort(sortBy('-points'))
+            .sort(sortBy(this.props.sortBy))
             .map((team, i) => {
                 return (
                     <Team key={i} data={team} count={i+1}/>

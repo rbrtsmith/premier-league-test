@@ -1,4 +1,6 @@
 import React from 'react';
+import LastFive from './lastFive';
+
 
 export default React.createClass({
     render() {
@@ -11,6 +13,13 @@ export default React.createClass({
                 <td>{team.won}</td>
                 <td>{team.drawn}</td>
                 <td>{team.lost}</td>
+                <td>{team.goalsFor}</td>
+                <td>{team.goalsAgainst}</td>
+                <td>{team.goalsFor - team.goalsAgainst}</td>
+                <td>{team.points}</td>
+                <td>
+                    <LastFive results={team.last5}/>
+                </td>
             </tr>
         );
     }

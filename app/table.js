@@ -8,7 +8,7 @@ export default React.createClass({
         return (
             <table>
                 <TableHeader competition={this.props.data.competition}/>
-                <Teams teams={this.props.data.teams}/>
+                <Teams sortBy="goalsAgainst" teams={this.props.data.teams}/>
             </table>
         );
     }
