@@ -8,7 +8,8 @@ const App = React.createClass({
     render() {
         return (
             <div>
-                <Table className="leage-table" data={data}/>
+                <Table 
+                    className="leage-table" data={data}/>
             </div>
         );
     }

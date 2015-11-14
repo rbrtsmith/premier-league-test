@@ -9,7 +9,7 @@ export default React.createClass({
             .sort(sortBy(this.props.sortBy))
             .map((team, i) => {
                 return (
-                    <Team key={i} data={team} count={i+1}/>
+                    <Team key={i} data={team} index={i+1}/>
                 );
             });
         return (

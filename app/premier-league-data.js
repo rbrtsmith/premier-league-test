@@ -9,6 +9,7 @@ export default {
             lost: 2,
             goalsFor: 22,
             goalsAgainst: 9,
+            goalDifference: 13,
             points: 26,
             last5: ['w', 'w', 'w', 'w', 'd']
         },
@@ -20,6 +21,7 @@ export default {
             lost: 9,
             goalsFor: 10,
             goalsAgainst: 20,
+            goalDifference: -10,
             points: 5,
             last5: ['l', 'l', 'l', 'l', 'd']
         },
@@ -31,6 +33,7 @@ export default {
             lost: 8,
             goalsFor: 12,
             goalsAgainst: 25,
+            goalDifference: -13,
             points: 8,
             last5: ['d', 'l', 'l', 'l', 'l']
         },
@@ -42,6 +45,7 @@ export default {
             lost: 7,
             goalsFor: 16,
             goalsAgainst: 23,
+            goalDifference: -7,
             points: 11,
             last5: ['l', 'w', 'l', 'l', 'l']
         },
@@ -53,6 +57,7 @@ export default {
             lost: 5,
             goalsFor: 14,
             goalsAgainst: 12,
+            goalDifference: 2,
             points: 19,
             last5: ['w', 'l', 'l', 'd', 'w']
         },
@@ -64,6 +69,7 @@ export default {
             lost: 3,
             goalsFor: 20,
             goalsAgainst: 16,
+            goalDifference: 4,
             points: 17,
             last5: ['d', 'l', 'l', 'w', 'd']
         },
@@ -75,6 +81,7 @@ export default {
             lost: 1,
             goalsFor: 25,
             goalsAgainst: 20,
+            goalDifference: 5,
             points: 25,
             last5: ['w', 'd', 'w', 'w', 'w']
         },
@@ -86,6 +93,7 @@ export default {
             lost: 3,
             goalsFor: 13,
             goalsAgainst: 14,
+            goalDifference: -1,
             points: 17,
             last5: ['d', 'd', 'd', 'w', 'l']
         },
@@ -97,6 +105,7 @@ export default {
             lost: 2,
             goalsFor: 26,
             goalsAgainst: 9,
+            goalDifference: 17,
             points: 26,
             last5: ['w', 'w', 'd', 'w', 'd']
         },
@@ -108,6 +117,7 @@ export default {
             lost: 2,
             goalsFor: 17,
             goalsAgainst: 8,
+            goalDifference: 9,
             points: 24,
             last5: ['l', 'w', 'd', 'd', 'w']
         },
@@ -119,6 +129,7 @@ export default {
             lost: 6,
             goalsFor: 13,
             goalsAgainst: 22,
+            goalDifference: -9,
             points: 10,
             last5: ['l', 'w', 'l', 'd', 'w']
         },
@@ -130,6 +141,7 @@ export default {
             lost: 6,
             goalsFor: 16,
             goalsAgainst: 23,
+            goalDifference: -7,
             points: 12,
             last5: ['l', 'l', 'l', 'l', 'w']
         },
@@ -141,6 +153,7 @@ export default {
             lost: 2,
             goalsFor: 19,
             goalsAgainst: 13,
+            goalDifference: 6,
             points: 20,
             last5: ['w', 'd', 'd', 'w', 'w']
         },
@@ -152,6 +165,7 @@ export default {
             lost: 4,
             goalsFor: 10,
             goalsAgainst: 12,
+            goalDifference: -2,
             points: 16,
             last5: ['w', 'w', 'l', 'd', 'w']
         },
@@ -163,6 +177,7 @@ export default {
             lost: 8,
             goalsFor: 13,
             goalsAgainst: 26,
+            goalDifference: -13,
             points: 6,
             last5: ['d', 'l', 'w', 'l', 'l']
         },
@@ -174,6 +189,7 @@ export default {
             lost: 5,
             goalsFor: 12,
             goalsAgainst: 16,
+            goalDifference: -4,
             points: 13,
             last5: ['d', 'l', 'w', 'l', 'l']
         },
@@ -185,6 +201,7 @@ export default {
             lost: 1,
             goalsFor: 20,
             goalsAgainst: 10,
+            goalDifference: 10,
             points: 21,
             last5: ['d', 'd', 'w', 'w', 'd']
         },
@@ -196,6 +213,7 @@ export default {
             lost: 4,
             goalsFor: 11,
             goalsAgainst: 12,
+            goalDifference: -1,
             points: 16,
             last5: ['l', 'w', 'w', 'l', 'l']
         },
@@ -207,6 +225,7 @@ export default {
             lost: 6,
             goalsFor: 10,
             goalsAgainst: 16,
+            goalDifference: -6,
             points: 14,
             last5: ['l', 'w', 'w', 'l', 'l']
         },
@@ -218,6 +237,7 @@ export default {
             lost: 3,
             goalsFor: 23,
             goalsAgainst: 16,
+            goalDifference: 7,
             points: 21,
             last5: ['d', 'w', 'w', 'l', 'd']
         },
