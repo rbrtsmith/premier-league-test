@@ -9,7 +9,7 @@ const App = React.createClass({
         return (
             <div>
                 <Table 
-                    className="leage-table" data={data}/>
+                    className="league-table" data={data}/>
             </div>
         );
     }
