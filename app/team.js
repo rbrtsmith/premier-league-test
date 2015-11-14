@@ -23,10 +23,6 @@ export default React.createClass({
         this.props.teamClickHandler(team);
     },
 
-    descriptionClickHandler() {
-        event.stopPropagation();
-    },
-
     render() {
         const team = this.props.data;
         let showTeamStatsClassName = 'league-table__cell__description';
@@ -51,10 +47,7 @@ export default React.createClass({
                             onClick={this.handleClick.bind(null, team[stat])}>
                             {team[stat]}
                         </div>
-                        <div 
-                            onClick={this.descriptionClickHandler}
-                            className={showTeamStatsClassName}
-                        >
+                        <div className={showTeamStatsClassName}>
                             {team['description']}
                         </div>
                     </td>
