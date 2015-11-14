@@ -2,6 +2,7 @@ export default {
     competition: 'Premier League',
     teams: [
         {
+            position: 2,
             name: 'Arsenal',
             played: 12,
             won: 8,
@@ -11,9 +12,11 @@ export default {
             goalsAgainst: 9,
             goalDifference: 13,
             points: 26,
-            last5: ['w', 'w', 'w', 'w', 'd']
+            last5: [3, 3, 3, 3, 1],
+            description: 'Arsenal Football Club is a professional football club based in Holloway, London. The club play in the Premier League, the top flight of English football. One of the most successful clubs in English football, they have won 13 First Division and Premier League titles and a record 12 FA Cups.'
         },
         {
+            position: 20,
             name: 'Aston Villa',
             played: 12,
             won: 1,
@@ -23,9 +26,11 @@ export default {
             goalsAgainst: 20,
             goalDifference: -10,
             points: 5,
-            last5: ['l', 'l', 'l', 'l', 'd']
+            last5: [0, 0, 0, 0, 1],
+            description: 'Aston Villa Football Club (/ˈæstən ˈvɪllə/; also known as Villa, The Villa, The Villans, The Lions)[4] is a professional football club based in Witton, Birmingham, who play in the Premier League, the highest level of English football. Founded in 1874, they have played at their current home ground, Villa Park, since 1897. Aston Villa were the originators and founder members of the Football League in 1888. They were also founder members of the Premier League in 1992, and have remained there ever since.[5] The club were floated by the previous owner and chairman Doug Ellis, but in 2006 full control was acquired by American businessman Randy Lerner.'
         },
         {
+            position: 18,
             name: 'Bournemouth',
             played: 12,
             won: 2,
@@ -35,9 +40,11 @@ export default {
             goalsAgainst: 25,
             goalDifference: -13,
             points: 8,
-            last5: ['d', 'l', 'l', 'l', 'l']
+            last5: [1, 0, 0, 0, 0],
+            description: 'Bournemouth Football Club is an English football team currently playing in the Wessex League Premier Division. Their nickname is "The Poppies", and they are often known as Bournemouth Poppies to avoid confusion with the Premier League club A.F.C. Bournemouth. The club play at Victoria Park, Namu Road, in Bournemouth and are founding members of the FA, Hampshire FA and Bournemouth FA.[1]'
         },
         {
+            position: 16,
             name: 'Chelsea',
             played: 12,
             won: 3,
@@ -47,9 +54,11 @@ export default {
             goalsAgainst: 23,
             goalDifference: -7,
             points: 11,
-            last5: ['l', 'w', 'l', 'l', 'l']
+            last5: [0, 3, 0, 0, 0],
+            description: 'Chelsea Football Club /ˈtʃɛlsiː/ are a professional football club based in Fulham, London, who play in the Premier League, the highest level of English football. Founded in 1905, the club have spent most of their history in the top tier of English football. The club\'s home ground is the 41,663-seat Stamford Bridge stadium, where they have played since their establishment.[2]'
         },
         {
+            position: 8,
             name: 'Crystal Palace',
             played: 12,
             won: 6,
@@ -59,9 +68,11 @@ export default {
             goalsAgainst: 12,
             goalDifference: 2,
             points: 19,
-            last5: ['w', 'l', 'l', 'd', 'w']
+            last5: [3, 0, 0, 1, 3],
+            description: 'Crystal Palace Football Club is an English professional football club based in South Norwood, London. They currently play in the highest level in English football, the Premier League. Since 1964, the club has mostly played in the top two leagues of English football. The club was founded in 1905 at the site of the famous Crystal Palace Exhibition building by the owners of the FA Cup Final stadium, who wanted their own team to play at the historic venue. Palace applied to be elected to The Football League, but this was rejected and they instead joined the Southern Football League Second Division, playing home games at The Crystal Palace, inspiration for the club\'s initial nickname, "The Glaziers". Palace were champions of the Division in their first season, and played in the Southern League First Division for the next fifteen years.'
         },
         {
+            position: 9,
             name: 'Everton',
             played: 12,
             won: 4,
@@ -71,9 +82,11 @@ export default {
             goalsAgainst: 16,
             goalDifference: 4,
             points: 17,
-            last5: ['d', 'l', 'l', 'w', 'd']
+            last5: [1, 0, 0, 3, 1],
+            description: 'Everton Football Club /ˈɛvərtən/ are an English football club based in Liverpool, playing in the Premier League. The club has competed in the top division for a record 112 seasons (playing just four seasons in the second tier) and has won a number of major honours including the League Championship nine times and the FA Cup five times.'
         },
         {
+            position: 3,
             name: 'Leicester City',
             played: 12,
             won: 7,
@@ -83,9 +96,11 @@ export default {
             goalsAgainst: 20,
             goalDifference: 5,
             points: 25,
-            last5: ['w', 'd', 'w', 'w', 'w']
+            last5: [3, 1, 3, 3, 3],
+            description: 'Leicester City Football Club /ˌlɛstər ˈsɪti/, also known as the Foxes, is an English professional football club based in Leicester at the King Power Stadium.[2] They play in the Premier League, having been promoted as champions of the Football League Championship in 2013–14, signalling a return to the top flight of English football after a decade away.'
         },
         {
+            position: 10,
             name: 'Liverpool',
             played: 12,
             won: 4,
@@ -95,9 +110,11 @@ export default {
             goalsAgainst: 14,
             goalDifference: -1,
             points: 17,
-            last5: ['d', 'd', 'd', 'w', 'l']
+            last5: [1, 1, 1, 3, 0],
+            description: 'Liverpool Football Club /ˈlɪvərpuːl/ are a Premier League football club based in Liverpool, England. The club have won more European trophies than any other English team with five European Cups, three UEFA Cups and three UEFA Super Cups. They have also won 18 League titles, seven FA Cups, a record eight League Cups, and 15 FA Community Shields, though they are yet to win a Premier League title since its inception in 1992, having finished in second place on three occasions since.'
         },
         {
+            position: 1,
             name: 'Manchester City',
             played: 12,
             won: 8,
@@ -107,9 +124,11 @@ export default {
             goalsAgainst: 9,
             goalDifference: 17,
             points: 26,
-            last5: ['w', 'w', 'd', 'w', 'd']
+            last5: [3, 3, 1, 3, 1],
+            description: 'Manchester City Football Club is a football club in Manchester, England. Founded in 1880 as St. Mark\'s (West Gorton), they became Ardwick Association Football Club in 1887 and Manchester City in 1894. The club moved to the City of Manchester Stadium in 2003, having played at Maine Road since 1923.'
         },
         {
+            position: 4,
             name: 'Manchester United',
             played: 12,
             won: 7,
@@ -119,9 +138,11 @@ export default {
             goalsAgainst: 8,
             goalDifference: 9,
             points: 24,
-            last5: ['l', 'w', 'd', 'd', 'w']
+            last5: [0, 3, 1, 1, 3],
+            description: 'Manchester United Football Club is a professional football club based in Old Trafford, Greater Manchester, England, that currently competes in the Premier League, the top flight of English football. Founded as Newton Heath LYR Football Club in 1878, the club changed its name to Manchester United in 1902 and moved to Old Trafford in 1910.'
         },
         {
+            position: 17,
             name: 'Newcastle United',
             played: 12,
             won: 2,
@@ -131,9 +152,11 @@ export default {
             goalsAgainst: 22,
             goalDifference: -9,
             points: 10,
-            last5: ['l', 'w', 'l', 'd', 'w']
+            last5: [0, 3, 0, 1, 3],
+            description: 'Newcastle United Football Club (often abbreviated to NUFC) is an English professional association football club based in Newcastle upon Tyne. The club was founded in 1892 by the merger of Newcastle East End and Newcastle West End, and has played at its current home ground, St James\' Park, ever since. The ground was developed into an all-seater stadium in the mid-1990s and now has a capacity of 52,405.[1][2] The club has been a member of the Premier League for all but two years of the competition\'s history, and has never dropped below English football\'s second tier since joining the Football League in 1893. The club has been owned by Mike Ashley since 2007, succeeding long term chairman and owner Sir John Hall.'
         },
         {
+            position: 15,
             name: 'Norwich City',
             played: 12,
             won: 3,
@@ -143,9 +166,11 @@ export default {
             goalsAgainst: 23,
             goalDifference: -7,
             points: 12,
-            last5: ['l', 'l', 'l', 'l', 'w']
+            last5: [0, 0, 0, 0, 3],
+            description: 'Norwich City Football Club (also known as The Canaries or City) is an English professional football club based in Norwich, Norfolk. Norwich returned to the Premier League in 2015, having first been promoted to the top flight in 1972. Norwich have won the League Cup twice, in 1962 and 1985. The club has never won the top flight, but finished third in 1993.'
         },
         {
+            position: 7,
             name: 'Southampton',
             played: 12,
             won: 5,
@@ -155,9 +180,11 @@ export default {
             goalsAgainst: 13,
             goalDifference: 6,
             points: 20,
-            last5: ['w', 'd', 'd', 'w', 'w']
+            last5: [3, 1, 1, 3, 3],
+            description: 'Southampton Football Club Listeni/saʊθˈæmptən, -hæmptən/ is an English football club, nicknamed The Saints, based in the city of Southampton, Hampshire, who currently compete in the Premier League. The Saints\' home ground since 2001 has been St Mary\'s Stadium, before which they were based at The Dell. The club has been nicknamed "The Saints" since its inception in 1885 due to its history as a church football team, founded as St Mary\'s Church of England Young Men\'s Association (or St. Mary\'s Y.M.A) and has since generally played in red and white shirts. The club has a long-standing rivalry with Portsmouth due to its close proximity and both cities\' respective maritime history. Matches between the two sides are known as the South Coast derby.'
         },
         {
+            position: 12,
             name: 'Stoke City',
             played: 12,
             won: 4,
@@ -167,9 +194,11 @@ export default {
             goalsAgainst: 12,
             goalDifference: -2,
             points: 16,
-            last5: ['w', 'w', 'l', 'd', 'w']
+            last5: [3, 3, 0, 1, 3],
+            description: 'Stoke City Football Club is an English professional football club based in Stoke-on-Trent, Staffordshire that plays in the Premier League. Founded as Stoke Ramblers in 1863 the club changed its name to Stoke City in 1925 after Stoke-on-Trent was granted city status. They are the second oldest professional football club in the world, after Notts County, and are one of the founding members of the Football League.'
         },
         {
+            position: 19,
             name: 'Sunderland',
             played: 12,
             won: 1,
@@ -179,9 +208,11 @@ export default {
             goalsAgainst: 26,
             goalDifference: -13,
             points: 6,
-            last5: ['d', 'l', 'w', 'l', 'l']
+            last5: [1, 0, 3, 0, 0],
+            description: 'Sunderland Association Football Club (Listeni/ˈsʌndərlənd/, local /ˈsʊnᵈlən/) is an English professional football club based in the North East city of Sunderland in the larger metropolitan area of Tyne and Wear. The club currently plays in the Premier League, the top league of English football. Since its formation in 1879,[3] the club has won six top-flight First Division (now the Premier League) titles (1892, 1893, 1895, 1902, 1913, and 1936), a total only bettered by six other clubs, and has finished runners-up five times. The club has also won the FA Cup twice (1937 and 1973) and been runners-up twice (1913 and 1992), as well as winning the FA Community Shield in 1936 and being finalists the following year. Sunderland have also been Football League Cup finalists in 1985 and 2014.'
         },
         {
+            position: 14,
             name: 'Swansea City',
             played: 12,
             won: 3,
@@ -191,9 +222,11 @@ export default {
             goalsAgainst: 16,
             goalDifference: -4,
             points: 13,
-            last5: ['d', 'l', 'w', 'l', 'l']
+            last5: [1, 0, 3, 0, 0],
+            description: 'Swansea City Association Football Club (/ˈswɒnzi ˈsɪti/; Welsh: Clwb Pêl-droed Dinas Abertawe) are a Welsh professional football club based in Swansea, who play in the Premier League, the highest level of English football. Swansea City represent England when playing in European competitions, although they have represented Wales in the past. The club were founded in 1912 as Swansea Town and joined the Football League in 1921. The club changed their name in 1969, when they adopted the name Swansea City to reflect Swansea\'s new status as a city.[2] Swansea have played their home matches at the Liberty Stadium since 2005, having previously played at the Vetch Field since the club were founded.'
         },
         {
+            position: 5,
             name: 'Tottenham Hotspur',
             played: 12,
             won: 5,
@@ -203,9 +236,11 @@ export default {
             goalsAgainst: 10,
             goalDifference: 10,
             points: 21,
-            last5: ['d', 'd', 'w', 'w', 'd']
+            last5: [1, 1, 3, 3, 1],
+            description: 'Tottenham Hotspur Football Club /ˈtɒtᵊnəm/,[2][3] commonly referred to as Spurs, are an English football club located in Tottenham, London, that competes in the Premier League. The club\'s home stadium is White Hart Lane. Their newly developed training ground is in Bulls Cross on the northern borders of the London Borough of Enfield.'
         },
         {
+            position: 11,
             name: 'Watford',
             played: 12,
             won: 4,
@@ -215,9 +250,11 @@ export default {
             goalsAgainst: 12,
             goalDifference: -1,
             points: 16,
-            last5: ['l', 'w', 'w', 'l', 'l']
+            last5: [0, 3, 3, 0, 0],
+            description: 'Watford Football Club is a football club based in Hertfordshire, England, which plays in the Premier League, the highest level of English football. Founded in 1881 as Watford Rovers, the club entered the FA Cup for the first time in 1886, and the Southern League a decade later. After finishing the 1914–15 season as Southern League champions under the management of Harry Kent, Watford joined the Football League in 1920. The club played at several grounds in its early history, before moving to a permanent location at Vicarage Road in 1922, where it remains to this day.[5] Watford spent most of the following half century in the lower divisions of The Football League, changing colours and crest on multiple occasions.[6]'
         },
         {
+            position: 13,
             name: 'West Bromwich Albion',
             played: 12,
             won: 4,
@@ -227,9 +264,11 @@ export default {
             goalsAgainst: 16,
             goalDifference: -6,
             points: 14,
-            last5: ['l', 'w', 'w', 'l', 'l']
+            last5: [0, 3, 3, 0, 0],
+            description: 'West Bromwich Albion Football Club /ˈbrɒmɪtʃ/, also known as West Brom, The Baggies, The Throstles, Albion or simply WBA, is an English professional football club based in West Bromwich in the West Midlands. The club was formed in 1878 and has played at its home ground, The Hawthorns, since 1900.'
         },
         {
+            position: 6,
             name: 'West Ham United',
             played: 12,
             won: 6,
@@ -239,7 +278,8 @@ export default {
             goalsAgainst: 16,
             goalDifference: 7,
             points: 21,
-            last5: ['d', 'w', 'w', 'l', 'd']
+            last5: [1, 3, 3, 0, 1],
+            description: 'West Ham United Football Club is an English professional football club based in Upton Park, East London, England, currently playing in the Premier League, England\'s top tier of football. The club was founded in 1895 as Thames Ironworks and reformed in 1900 as West Ham United. In 1904 the club relocated to their current Boleyn Ground stadium. They initially competed in the Southern League and Western League before eventually joining the full Football League in 1919 and subsequently enjoyed promotion to the top flight for the 1923–24 season. 1923 FA Cup Final also saw the club feature in the first FA Cup Final to be held at Wembley against Bolton Wanderers.'
         },
     ]
 };

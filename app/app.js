@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import data from './premier-league-data';
 import Table from './table';
-
+require('./styles.css');
 
 const App = React.createClass({
     render() {

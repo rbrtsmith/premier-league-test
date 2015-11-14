@@ -6,7 +6,8 @@ import Teams from './teams';
 export default React.createClass({
     getInitialState () {
         return {
-            sortBy: '-points'
+            sortBy: ['position'],
+            showTeamStats: null
         };
     },
 
@@ -16,13 +17,27 @@ export default React.createClass({
         });
     },
 
+    teamClickHandler(team) {
+        let teamToShow = team;
+        if (this.state.showTeamStats === team) {
+            teamToShow = null;
+        }
+        this.setState({
+            showTeamStats: teamToShow
+        });
+    },
+
     render() {
         return (
             <div>
                 <h1>{this.props.data.competition}</h1>
                 <table className="league-table">
                     <TableHeader reSort={this.reSort}/>
-                    <Teams sortBy={this.state.sortBy} teams={this.props.data.teams}/>
+                    <Teams 
+                        showTeamStats={this.state.showTeamStats}
+                        teamClickHandler={this.teamClickHandler} 
+                        sortBy={this.state.sortBy} teams={this.props.data.teams}
+                    />
                 </table>
             </div>
         );
