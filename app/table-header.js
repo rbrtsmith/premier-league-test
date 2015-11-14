@@ -1,12 +1,12 @@
 import React from 'react';
-import store from './store';
-
-
 
 export default React.createClass({
+    propTypes: {
+        reSort: React.PropTypes.func.isRequired
+    },
 
-    setOrder(value) {
-        store.orderBy = value;
+    handleClick(value) {
+        this.props.reSort(value);
     },
 
     render() {
@@ -14,15 +14,15 @@ export default React.createClass({
             <thead>
                 <tr>
                     <td>Position</td>
-                    <td onClick={this.setOrder.bind(null, 'name')}>Team</td>
-                    <td onClick={this.setOrder.bind(null, 'played')}>P</td>
-                    <td onClick={this.setOrder.bind(null, '-won')}>W</td>
-                    <td onClick={this.setOrder.bind(null, '-drawn')}>D</td>
-                    <td onClick={this.setOrder.bind(null, '-lost')}>L</td>
-                    <td onClick={this.setOrder.bind(null, '-goalsFor')}>F</td>
-                    <td onClick={this.setOrder.bind(null, 'goalsAgainst')}>A</td>
-                    <td onClick={this.setOrder.bind(null, '-goalDifference')}>GD</td>
-                    <td onClick={this.setOrder.bind(null, '-points')}>Pts</td>
+                    <td onClick={this.handleClick.bind(null, 'name')}>Team</td>
+                    <td onClick={this.handleClick.bind(null, 'played')}>P</td>
+                    <td onClick={this.handleClick.bind(null, '-won')}>W</td>
+                    <td onClick={this.handleClick.bind(null, '-drawn')}>D</td>
+                    <td onClick={this.handleClick.bind(null, 'lost')}>L</td>
+                    <td onClick={this.handleClick.bind(null, '-goalsFor')}>F</td>
+                    <td onClick={this.handleClick.bind(null, 'goalsAgainst')}>A</td>
+                    <td onClick={this.handleClick.bind(null, '-goalDifference')}>GD</td>
+                    <td onClick={this.handleClick.bind(null, '-points')}>Pts</td>
                     <td>Last5</td>
                 </tr>
             </thead>

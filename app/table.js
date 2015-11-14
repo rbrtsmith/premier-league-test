@@ -1,20 +1,18 @@
 import React from 'react';
 import TableHeader from './table-header';
 import Teams from './teams';
-import store from './store';
-
 
 
 export default React.createClass({
     getInitialState () {
         return {
-            sortBy: store.orderBy
+            sortBy: '-points'
         };
     },
 
-    handleClick() {
+    reSort(value) {
         this.setState({
-            sortBy: store.orderBy
+            sortBy: value
         });
     },
 
@@ -22,8 +20,8 @@ export default React.createClass({
         return (
             <div>
                 <h1>{this.props.data.competition}</h1>
-                <table className="league-table" onClick={this.handleClick}>
-                    <TableHeader/>
+                <table className="league-table">
+                    <TableHeader reSort={this.reSort}/>
                     <Teams sortBy={this.state.sortBy} teams={this.props.data.teams}/>
                 </table>
             </div>
